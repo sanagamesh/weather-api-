@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+.main {
+    width: 500px;
+    border-radius: 20px;
+    background-image: radial-gradient(white, rgba(199, 199, 247, 0.14));
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.header {
+    color: whitesmoke;
+    margin: 10px 0px 0px 10px;
+    font-size: 25px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+}
+
+.weather-box {
+    text-align: center;
+}
+
+.weather-box .temp {
+    display: inline-block;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 15px 25px;
+    color: rgb(10, 9, 9);
+    font-size: 102px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+    color: rgb(17, 12, 12);
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .location {
+    color: rgb(10, 9, 9);
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.day {
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp {
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunrise-sunset {
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+}
+
+.description {
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button {
+    width: 35px;
+    height: 35px;
+}
